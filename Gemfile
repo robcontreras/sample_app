@@ -16,10 +16,18 @@ group :assets do
 
 group :development do
 	gem 'rspec-rails', '2.10.0'
+	gem 'spork', '~>0.9.1'
+	gem "autotest", "~> 4.4.6"
+	gem "autotest-growl", "~> 0.2.16"
+	gem "webrat", "~> 0.7.3"
 end
 
 group :test do
 	gem 'rspec-rails', '2.10.0'
+	gem 'spork', '~>0.9.1'
+	gem "autotest", "~> 4.4.6"
+	gem "autotest-growl", "~> 0.2.16"
+	gem "webrat", "~> 0.7.3"
 end
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
